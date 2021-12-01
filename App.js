@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import { ImageBackground,StyleSheet, Text, View, Button, TextInput } from 'react-native';
 
-
 const image = { uri: "https://preview.redd.it/ravmjkbpojg21.jpg?auto=webp&s=dfc6ce65b74aa28c9cd8799e75538312df0fc629" };
 
 
@@ -15,7 +14,7 @@ export default function App() {
         <TextInput 
         placeholder = "Course Goal"
         placeholderTextColor = "white"
-        style = {styles.TextForm} 
+        style = {styles.TextForm}  
         />
         <Button title = 'ADD' />
       </View>
